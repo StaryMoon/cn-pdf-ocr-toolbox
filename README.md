@@ -1,20 +1,22 @@
 # 中文 PDF 与 OCR 工具箱
 
+> PDF 合并拆分、OCR、格式转换、扫描件归档、电子书管理和公式识别工具。
+
 ![preview](assets/preview.png)
 
-PDF 工具是那种平时想不起来，真要用时到处找的东西。这个仓库按论文、扫描件、办公文件和批量转换几个场景来收。
+## Overview
 
-敏感文件不要随便上传在线工具。扫描件先 OCR 再归档，后面会少很多痛苦。
+整理 PDF 合并拆分、OCR、格式转换、电子书管理、扫描件归档和数学公式识别工具。
 
-## 先看这几个
+本仓库只保留与主题直接相关、入口稳定、说明清晰的资源。优先收录官方文档、主流开源仓库、长期可访问的产品页面和常用工具链。
+
+## Key Resources
 
 Stirling PDF / PDF24 / OCRmyPDF / Tesseract OCR
 
-日常 PDF 处理看 Stirling PDF / PDF24；批量转换看 Pandoc；文献管理交给 Zotero。
+## Resources
 
-## 入口
-
-| 名称 | 我为什么留它 |
+| Resource | Use case |
 | --- | --- |
 | [Stirling PDF](https://github.com/Stirling-Tools/Stirling-PDF) | 可自托管的 PDF 工具箱。 |
 | [PDF24](https://www.pdf24.org/en/) | 在线/桌面 PDF 工具。 |
@@ -25,25 +27,29 @@ Stirling PDF / PDF24 / OCRmyPDF / Tesseract OCR
 | [Calibre](https://calibre-ebook.com/) | 电子书管理和转换。 |
 | [Mathpix](https://mathpix.com/) | 公式和文档 OCR。 |
 
-## 我的使用顺序
+## Recommended Path
 
-- 扫描件先 OCR，再归档。
-- 论文 PDF 用 Zotero 管理，办公 PDF 用 Stirling/PDF24。
-- 大批量转换优先 Pandoc 或脚本。
+1. 扫描件先 OCR，再归档。
+2. 论文 PDF 用 Zotero 管理，办公 PDF 用 Stirling/PDF24。
+3. 大批量转换优先 Pandoc 或脚本。
 
-## 别踩坑
+## Notes
 
-- 敏感文件不要上传到未知在线工具。
+- 敏感文件不应上传到未知在线工具。
 - OCR 结果必须人工核对。
 
-## 截图来源
+## Screenshot
 
-这张图来自公开页面：[https://github.com/Stirling-Tools/Stirling-PDF](https://github.com/Stirling-Tools/Stirling-PDF)。如果页面改版，截图可能会和当前官网略有出入。
+Source: [https://github.com/Stirling-Tools/Stirling-PDF](https://github.com/Stirling-Tools/Stirling-PDF)
 
-## 维护方式
+## Data
 
-链接数据放在 [`data/links.json`](data/links.json)。我倾向于少而准：入口失效就换，说明过时就改，不把这里做成什么都往里塞的大杂烩。
+Structured resource data is available in [`data/links.json`](data/links.json).
+
+## Contributing
+
+PRs are welcome for official links, documentation updates, screenshot refreshes, and concise use-case descriptions. Please avoid mirrors, cracked software, referral links, and unverified downloads.
 
 ## License
 
-MIT. 第三方商标、页面截图和网站内容归原权利方所有；本仓库只做中文导航和使用笔记。
+MIT. Third-party trademarks, screenshots, and website content belong to their respective owners.
