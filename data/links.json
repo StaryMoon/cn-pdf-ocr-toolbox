@@ -46,6 +46,26 @@
       "Mathpix",
       "https://mathpix.com/",
       "公式和文档 OCR。"
+    ],
+    [
+      "NAPS2",
+      "https://www.naps2.com/",
+      "扫描、OCR 和 PDF 处理。"
+    ],
+    [
+      "PyMuPDF",
+      "https://pymupdf.readthedocs.io/",
+      "Python PDF 解析和处理库。"
+    ],
+    [
+      "Docling",
+      "https://github.com/docling-project/docling",
+      "文档解析和结构化工具。"
+    ],
+    [
+      "Marker",
+      "https://github.com/VikParuchuri/marker",
+      "PDF 转 Markdown/OCR 工作流。"
     ]
   ],
   "quick_start": [
